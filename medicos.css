@@ -1,0 +1,227 @@
+*{margin: 0;
+    padding: 0;
+   }
+   
+   body{
+   /*font-family: arial, helvetica, sans-serif;*/
+   
+   font-size: 12px;
+   background-color: white;
+   }
+
+   /*fora do bootstrap pagina plano de saude*/
+#fora{
+    font-size: 12px;
+    background-color: #E4EAFF;
+}
+#fora1{
+    font-size: 12px;
+    background-color: #E4EAFF;
+}
+   
+   nav {
+
+       margin: 100px;
+       max-width: 800px;
+       background: #008FEA;
+       box-shadow:0 3px 15px rgba(0,0,0,.15);
+       position: relative;
+       margin: 25px 0 0 305px;
+       
+   }
+   
+   .menu{
+    
+   list-style:none;
+   float:center;
+   
+   
+   
+   }
+   
+   .menu li{
+       position:relative;
+       float:left;
+       
+       
+   }
+   
+   
+   .menu li a{color:  blue;
+       font-family: arial, helvetica, sans-serif; 
+       text-decoration:none; 
+       padding:5px 10px; 
+       display:block;
+       
+   }
+   
+   .menu li a:hover{
+       background: #6C84D5;
+       color: darkblue;
+       -moz-box-shadow:0 3px 10px 0 #CCC;
+       -webkit-box-shadow:0 3px 10px 0 #ccc;
+       text-shadow:0px 0px 20px darkorange;
+   }
+   
+   .menu li  ul{
+       
+       position:absolute;
+       top:25px;
+       right: 400px;
+       background-color:#fff;
+       display:none;
+       margin: 0 0 0 15px;
+   }
+   
+   /*.menu li:hover ul, .menu li.over ul{
+       display:block;
+   }*/
+   
+   .menu li ul li{
+       border:1px solid black;
+       display:block;
+      width: 600px;
+   }
+   
+   .centro{
+    margin-top: 150px;
+   }
+   
+   
+   #titulo
+   {
+       font-family: arial, helvetica, sans-serif;
+       font-size: 40px;
+       text-align: center;
+       color:  #6C84D5;
+   }
+   
+   /*#img01
+   {
+       width: 100%;
+       height: 315px;
+   
+   }*/
+   
+   
+   #subtitulo
+   {
+       font-family: arial, helvetica, sans-serif;
+       font-size: 12px;
+       color:  darkblue;
+       margin-top: 160px;
+       width: 100%;
+       text-align: center;
+       font-size: x-large;
+       
+   }
+   
+   #letra
+   {
+       font-family: arial, helvetica, sans-serif;
+       font-size: 12px;
+       color:  black;
+       margin-top: 10px;
+       width: 100%;
+       text-align: center;
+       font-size: x-large;
+       
+   }
+  
+   #h2{
+    font-family: arial, helvetica, sans-serif
+   }
+
+   #h4{
+    font-family: arial, helvetica, sans-serif
+   }
+.menuImg {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.menuImg1 {
+    display: flex;
+    justify-content: center;
+}
+
+.menuImg2 {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem {
+  width: 600px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+}
+.imagem::after {
+  content: attr(data-title); /* estilo que coloco a legenda no lugar */
+  position: absolute;
+  width: 100%;
+  bottom: -20px;
+  left: 0;
+}
+
+
+
+#btn1:hover
+
+{ background-color: #6C84D5; 
+
+transition: 0.5s;
+
+opacity: 0.7;
+
+}
+
+
+
+
+
+
+
+
+.abrirModal:hover{
+    cursor: pointer;
+}
+
+.checkboxModal{
+display: none;
+}
+
+#modalExemplo:checked + .modal
+{
+    display: flex;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal .fecharModal{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.modal .fecharModal:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.modal .conteudoModal{
+    width: 60%;
+    height: 30%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: auto;
+}

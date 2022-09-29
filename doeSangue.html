@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=DynaPuff' rel='stylesheet'>
+
+    <title>Hospital São Carlos</title>
+</head>
+
+<body>
+    <header>
+       
+        <div class="cabecalho">
+            <div id="titulo">
+                <h1>Hospital São Carlos</h1>
+            </div>
+            <div class="logo">
+                <img id="img01" src="img/Rectangle 1.png" width="120" height="70">
+
+            </div>
+        </div>
+
+    </header>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="profissionaisSaude.html">Profissionais da Saúde</a></li>
+            <li><a href="planosDeSaude.html">Planos de Saúde</a></li>
+            <li><a href="PrimeiroCadastro.html">Primeiro Cadastro</a></li>
+            <li><a href="doeSangue.html">Doe Sangue</a></li>
+            <li><a href="faleConosco.html">Fale Conosco</a></li>
+
+        </ul>
+    </nav>
+
+    <!--<div id="subtitulo">
+        Tabela de casos de Covid-19  
+      </div>-->
+
+
+
+
+    <div id="subtitulo">
+        Doe Sangue
+    </div>
+
+    <div id="subtitulo">
+
+        <div id="texto1">
+            A importância de doar sangue
+        </div>
+
+        <div id="covid1">
+            Tabela de doações
+        </div>
+
+    </div>
+    
+    <div class="centro">
+
+            
+
+            <div id="Historia1">
+
+                <p>
+                    Doar sangue é um ato de amor ao próximo. E mais do que isso. Ao fazer esse gesto, o doador
+                    pode dar esperança de vida e de saúde para quem mais precisa: pai, mãe, irmão, amigo ou 
+                    mesmo uma pessoa que você nunca viu. Não importa quem será o beneficiado, mas sim,
+                    que outras pessoas terão novas oportunidades, novas chances de recomeçar a própria vida.
+                </p>
+                <p>
+                    Para isso, melhor do que fazer a doação uma vez, é tornar esse gesto um compromisso,
+                    tornando-se um doador frequente. Os estoques dos bancos de sangue de todo o País
+                    precisam estar constantemente abastecidos para atender tanto quem estiver em situação de 
+                    emergência (após um acidente, por exemplo), quanto para quem necessita de sangue com 
+                    frequência (pacientes internados ou em tratamento de longo período) e ainda para cirurgias.
+                </p>
+
+
+            </div>
+
+            <div id="table3">
+            <table id="table1">
+                <tr>
+                    <td>  Data  </td>
+                    <td>A+</td>
+                    <td>A-</td>
+                    <td>B+</td>
+                    <td>B-</td>
+                    <td>AB+</td>
+                    <td>AB-</td>
+                    <td>O+</td>
+                    <td>O-</td>
+                </tr>
+                <tr>
+                    <td>Agosto</td>
+                    <td>15</td>
+                    <td>5.234</td>
+                    <td>4.234</td>
+                    <td>3.234</td>
+                    <td>15</td>
+                    <td>5.234</td>
+                    <td>4.234</td>
+                    <td>3.234</td>
+                </tr>
+                <tr>
+                    <td>Julho</td>
+                    <td>15</td>
+                    <td>5.234</td>
+                    <td>4.234</td>
+                    <td>3.234</td>
+                    <td>15</td>
+                    <td>5.234</td>
+                    <td>4.234</td>
+                    <td>3.234</td>
+                </tr>
+                <tr>
+                    <td>Junho</td>
+                    <td>15</td>
+                    <td>5.234</td>
+                    <td>4.234</td>
+                    <td>3.234</td>
+                    <td>15</td>
+                    <td>5.234</td>
+                    <td>4.234</td>
+                    <td>3.234</td>
+                </tr>
+                <tr>
+                    <td>Maio</td>
+                    <td>15</td>
+                    <td>5.234</td>
+                    <td>4.234</td>
+                    <td>3.234</td>
+                    <td>15</td>
+                    <td>5.234</td>
+                    <td>4.234</td>
+                    <td>3.234</td>
+                </tr>
+                <tr>
+                    <td>Abril</td>
+                    <td>15</td>
+                    <td>5.234</td>
+                    <td>4.234</td>
+                    <td>3.234</td>
+                    <td>15</td>
+                    <td>5.234</td>
+                    <td>4.234</td>
+                    <td>3.234</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+    
+
+
+    <form id="formDoe" action="/pagina-processa-dados-do-form" method="post">
+        <div>
+            <label for="name">Nome completo:</label>
+            <input type="text" id="name" />
+        </div>
+        <div>
+            <label for="name">Endereço:</label>
+            <input type="text" id="name" />
+        </div>
+        <div>
+            <label for="name">Estado:</label>
+            <input type="text" id="name" />
+        </div>
+        <div>
+            <label for="name">Email:</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+        </div>
+        <div>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+        </div>
+
+
+        <div class="button">
+            <button type="submit" id="btn1">Enviar</button>
+        </div>
+    </form>
+
+
+</body>
+
+</html>
